@@ -11,7 +11,7 @@ app.listen(process.env.PORT || 3000);
 
 app.use(express.json());
 app.use(cors({
-    orgin : "http://localhost:3001"
+    orgin : "*"
 }))
 
 app.get('/', function(req,res){
