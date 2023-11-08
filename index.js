@@ -11,7 +11,7 @@ app.listen(process.env.PORT || 3000);
 
 app.use(express.json());
 app.use(cors({
-    orgin : "http://localhost:3001"
+    orgin : "https://cdd-crud-app.netlify.app"
 }))
 
 app.get('/', function(req,res){
